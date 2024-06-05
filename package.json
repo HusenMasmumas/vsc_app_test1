@@ -1,6 +1,7 @@
 {
   "name": "vsc_app_test1",
   "version": "0.0.1",
+  "main": "src/index.js",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

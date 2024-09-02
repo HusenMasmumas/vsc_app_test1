@@ -315,19 +315,19 @@
 // export default App;
 
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-// import FaceDetectionPage from './src/component/face_detection';
+// import {SafeAreaView} from 'react-native';
+import FaceDetectionPage from './src/component/face_detection';
 // import {MyComponent as VSC_Connect} from 'vsc_connect';
 // import {MyComponent as VSC_Shop} from 'vsc_connect';
 
 const App = () => {
   return (
-    <></>
+    // <></>
     // <FaceDetectionPage />
-    // <SafeAreaView>
     //   <VSC_Connect />
     //   <VSC_Shop />
-    // </SafeAreaView>
+
+    <FaceDetectionPage />
   );
 };
 

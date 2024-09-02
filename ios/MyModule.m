@@ -5,4 +5,10 @@
 //  Created by Husen Masmumas on 24/7/2567 BE.
 //
 
-#import <Foundation/Foundation.h>
+#import "React/RCTBridgeModule.h"
+
+@interface RCT_EXTERN_MODULE(MyModule, NSObject)
+
+RCT_EXTERN_METHOD(myFunction:(RCTResponseSenderBlock)callback)
+
+@end
